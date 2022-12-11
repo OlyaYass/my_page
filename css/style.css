@@ -644,6 +644,12 @@ h3 {
   }
 }
 
+@media screen and (orientation: portrait) {
+  .galery_img{
+    flex: 100%;
+  }
+}
+
 .footer {
   background: linear-gradient(150deg, #71f5b7 0, #54b0f1 65%, #465bf8 90%);
   margin-top: 90px;
